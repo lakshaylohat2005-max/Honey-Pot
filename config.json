@@ -1,0 +1,26 @@
+{
+  "services": {
+    "ssh": {
+      "enabled": true,
+      "port": 2222,
+      "banner": "SSH-2.0-OpenSSH_7.4"
+    },
+    "ftp": {
+      "enabled": true,
+      "port": 2121,
+      "banner": "220 (vsFTPd 3.0.3)"
+    },
+    "http": {
+      "enabled": true,
+      "port": 8080,
+      "fake_page_title": "Employee Portal Login"
+    }
+  },
+
+  "log_file": "honeypot.log",
+  "log_format": "jsonl",
+  "_comment_log_format": "jsonl = one JSON object per line, easy to parse/analyze later",
+
+  "bind_host": "0.0.0.0",
+  "_comment_bind_host": "0.0.0.0 = listen on all interfaces. Use 127.0.0.1 to only listen locally for safe testing."
+}

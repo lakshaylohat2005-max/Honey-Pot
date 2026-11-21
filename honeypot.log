@@ -1,0 +1,6 @@
+{"timestamp": "2026-07-18T10:14:52.594319+00:00", "service": "http", "src_ip": "127.0.0.1", "src_port": 57288, "event_type": "get_request", "details": {"path": "/admin"}}
+{"timestamp": "2026-07-18T10:15:47.089364+00:00", "service": "http", "src_ip": "127.0.0.1", "src_port": 10715, "event_type": "get_request", "details": {"path": "/.env"}}
+{"timestamp": "2026-07-18T10:17:28.758614+00:00", "service": "http", "src_ip": "127.0.0.1", "src_port": 14784, "event_type": "login_attempt", "details": {"path": "/login", "username": "admin", "password": "hunter2"}}
+{"timestamp": "2026-07-18T10:18:06.513398+00:00", "service": "ssh", "src_ip": "127.0.0.1", "src_port": 14785, "event_type": "connection_opened", "details": {}}
+{"timestamp": "2026-07-18T10:18:06.522416+00:00", "service": "ssh", "src_ip": "127.0.0.1", "src_port": 14785, "event_type": "error", "details": {"error": "[WinError 10054] An existing connection was forcibly closed by the remote host"}}
+{"timestamp": "2026-07-18T10:18:06.523409+00:00", "service": "ssh", "src_ip": "127.0.0.1", "src_port": 14785, "event_type": "connection_closed", "details": {}}
